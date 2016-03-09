@@ -1,5 +1,5 @@
-[
-    {
+var spell_data = {
+    "Water Walk": {
         "concentration": "no",
         "page": "phb 287",
         "range": "30 feet",
@@ -12,7 +12,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Magic Stone": {
         "concentration": "no",
         "page": "ee 20",
         "range": "Touch",
@@ -25,7 +25,7 @@
         "school": "Transmutation",
         "class": {"Warlock": "yes", "Druid": "yes"}
     },
-    {
+    "Hallow": {
         "concentration": "no",
         "page": "phb 249",
         "range": "Touch",
@@ -38,7 +38,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Conjure Woodland Beings": {
         "concentration": "yes",
         "page": "phb 226",
         "range": "60 feet",
@@ -51,7 +51,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Sleep": {
         "concentration": "no",
         "page": "phb 276",
         "range": "90 feet",
@@ -64,7 +64,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Zone of Truth": {
         "concentration": "no",
         "page": "phb 289",
         "range": "60 feet",
@@ -77,7 +77,7 @@
         "school": "Enchantment",
         "class": {"Cleric": "yes", "Paladin": "yes", "Bard": "yes"}
     },
-    {
+    "Investiture of Flame": {
         "concentration": "yes",
         "page": "ee 19",
         "range": "Self",
@@ -90,7 +90,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Suggestion": {
         "concentration": "yes",
         "page": "phb 279",
         "range": "30 feet",
@@ -103,7 +103,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Spiritual Weapon": {
         "concentration": "no",
         "page": "phb 278",
         "range": "60 feet",
@@ -116,7 +116,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Prismatic Spray": {
         "concentration": "no",
         "page": "phb 267",
         "range": "Self",
@@ -129,7 +129,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Knock": {
         "concentration": "no",
         "page": "phb 254",
         "range": "60 feet",
@@ -142,7 +142,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Forbiddance": {
         "concentration": "no",
         "page": "phb 243",
         "range": "Touch",
@@ -155,7 +155,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Chill Touch": {
         "concentration": "no",
         "page": "phb 221",
         "range": "120 feet",
@@ -168,7 +168,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Thunderclap": {
         "concentration": "no",
         "page": "ee 22",
         "range": "Self",
@@ -181,7 +181,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Commune with Nature": {
         "concentration": "no",
         "page": "phb 224",
         "range": "Self",
@@ -194,7 +194,7 @@
         "school": "Divination",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Abi-Dalzim's Horrid Wilting": {
         "concentration": "no",
         "page": "ee 15",
         "range": "150 feet",
@@ -207,7 +207,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Greater Invisibility": {
         "concentration": "yes",
         "page": "phb 246",
         "range": "Touch",
@@ -220,7 +220,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Crown of Madness": {
         "concentration": "yes",
         "page": "phb 229",
         "range": "120 feet",
@@ -233,7 +233,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Sleet Storm": {
         "concentration": "yes",
         "page": "phb 276",
         "range": "150 feet",
@@ -246,7 +246,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Flaming Sphere": {
         "concentration": "yes",
         "page": "phb 242",
         "range": "60 feet",
@@ -259,7 +259,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Fabricate": {
         "concentration": "no",
         "page": "phb 239",
         "range": "120 feet",
@@ -272,7 +272,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Command": {
         "concentration": "no",
         "page": "phb 223",
         "range": "60 feet",
@@ -285,7 +285,7 @@
         "school": "Enchantment",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Mass Heal": {
         "concentration": "no",
         "page": "phb 258",
         "range": "60 feet",
@@ -298,7 +298,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Dominate Monster": {
         "concentration": "yes",
         "page": "phb 235",
         "range": "60 feet",
@@ -311,7 +311,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Tenser's Floating Disk": {
         "concentration": "no",
         "page": "phb 282",
         "range": "30 feet",
@@ -325,7 +325,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Ice Knife": {
         "concentration": "no",
         "page": "ee 19",
         "range": "60 feet",
@@ -338,7 +338,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Beacon of Hope": {
         "concentration": "yes",
         "page": "phb 217",
         "range": "30 feet",
@@ -351,7 +351,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Storm of Vengeance": {
         "concentration": "yes",
         "page": "phb 279",
         "range": "Sight",
@@ -364,7 +364,7 @@
         "school": "Conjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Guidance": {
         "concentration": "yes",
         "page": "phb 248",
         "range": "Touch",
@@ -377,7 +377,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Holy Aura": {
         "concentration": "yes",
         "page": "phb 251",
         "range": "Self",
@@ -390,7 +390,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Continual Flame": {
         "concentration": "no",
         "page": "phb 227",
         "range": "Touch",
@@ -403,7 +403,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Wizard": "yes"}
     },
-    {
+    "Dominate Person": {
         "concentration": "yes",
         "page": "phb 235",
         "range": "60 feet",
@@ -416,7 +416,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Contingency": {
         "concentration": "no",
         "page": "phb 227",
         "range": "Self",
@@ -429,7 +429,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Prestidigitation": {
         "concentration": "no",
         "page": "phb 267",
         "range": "10 feet",
@@ -442,7 +442,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Eldritch Blast": {
         "concentration": "no",
         "page": "phb 237",
         "range": "120 feet",
@@ -455,7 +455,7 @@
         "school": "Evocation",
         "class": {"Warlock": "yes"}
     },
-    {
+    "Revivify": {
         "concentration": "no",
         "page": "phb 272",
         "range": "Touch",
@@ -468,7 +468,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Flesh to Stone": {
         "concentration": "yes",
         "page": "phb 243",
         "range": "60 feet",
@@ -481,7 +481,7 @@
         "school": "Transmutation",
         "class": {"Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Skywrite": {
         "concentration": "yes",
         "page": "ee 22",
         "range": "Sight",
@@ -494,7 +494,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Major Image": {
         "concentration": "yes",
         "page": "phb 258",
         "range": "120 feet",
@@ -507,7 +507,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Locate Animals or Plants": {
         "concentration": "no",
         "page": "phb 256",
         "range": "Self",
@@ -520,7 +520,7 @@
         "school": "Divination",
         "class": {"Ranger": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Feeblemind": {
         "concentration": "no",
         "page": "phb 239",
         "range": "150 feet",
@@ -533,7 +533,7 @@
         "school": "Enchantment",
         "class": {"Warlock": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Greater Restoration": {
         "concentration": "no",
         "page": "phb 246",
         "range": "Touch",
@@ -546,7 +546,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Clairvoyance": {
         "concentration": "yes",
         "page": "phb 222",
         "range": "1 mile",
@@ -559,7 +559,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Create Bonfire": {
         "concentration": "yes",
         "page": "ee 16",
         "range": "60 feet",
@@ -572,7 +572,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Conjure Volley": {
         "concentration": "no",
         "page": "phb 226",
         "range": "150 feet",
@@ -585,7 +585,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Spike Growth": {
         "concentration": "yes",
         "page": "phb 277",
         "range": "150 feet",
@@ -598,7 +598,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Produce Flame": {
         "concentration": "no",
         "page": "phb 269",
         "range": "Self",
@@ -611,7 +611,7 @@
         "school": "Conjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Power Word Kill": {
         "concentration": "no",
         "page": "phb 266",
         "range": "60 feet",
@@ -624,7 +624,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Silent Image": {
         "concentration": "yes",
         "page": "phb 276",
         "range": "60 feet",
@@ -637,7 +637,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Hunter's Mark": {
         "concentration": "yes",
         "page": "phb 251",
         "range": "90 feet",
@@ -650,7 +650,7 @@
         "school": "Divination",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Blur": {
         "concentration": "yes",
         "page": "phb 219",
         "range": "Self",
@@ -663,7 +663,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Chain Lightning": {
         "concentration": "no",
         "page": "phb 221",
         "range": "150 feet",
@@ -676,7 +676,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Heroes' Feast": {
         "concentration": "no",
         "page": "phb 250",
         "range": "30 feet",
@@ -689,7 +689,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Blight": {
         "concentration": "no",
         "page": "phb 219",
         "range": "30 feet",
@@ -702,7 +702,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Fire Bolt": {
         "concentration": "no",
         "page": "phb 242",
         "range": "120 feet",
@@ -715,7 +715,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Divination": {
         "concentration": "no",
         "page": "phb 234",
         "range": "Self",
@@ -728,7 +728,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Contagion": {
         "concentration": "no",
         "page": "phb 227",
         "range": "Touch",
@@ -741,7 +741,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Shatter": {
         "concentration": "no",
         "page": "phb 275",
         "range": "60 feet",
@@ -754,7 +754,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Foresight": {
         "concentration": "no",
         "page": "phb 244",
         "range": "Touch",
@@ -767,7 +767,7 @@
         "school": "Divination",
         "class": {"Warlock": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Cone of Cold": {
         "concentration": "no",
         "page": "phb 224",
         "range": "Self",
@@ -780,7 +780,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Investiture of Ice": {
         "concentration": "yes",
         "page": "ee 19",
         "range": "Self",
@@ -793,7 +793,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Mislead": {
         "concentration": "yes",
         "page": "phb 260",
         "range": "Self",
@@ -806,7 +806,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Sunbeam": {
         "concentration": "yes",
         "page": "phb 279",
         "range": "Self",
@@ -819,7 +819,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Freedom of Movement": {
         "concentration": "no",
         "page": "phb 244",
         "range": "Touch",
@@ -832,7 +832,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Ranger": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Mass Suggestion": {
         "concentration": "no",
         "page": "phb 258",
         "range": "60 feet",
@@ -845,7 +845,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Tree Stride": {
         "concentration": "yes",
         "page": "phb 283",
         "range": "Self",
@@ -858,7 +858,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Guards and Wards": {
         "concentration": "no",
         "page": "phb 248",
         "range": "Touch",
@@ -871,7 +871,7 @@
         "school": "Abjuration",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Rary's Telepathic Bond": {
         "concentration": "no",
         "page": "phb 270",
         "range": "30 feet",
@@ -885,7 +885,7 @@
         "school": "Divination",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Nystul's Magic Aura": {
         "concentration": "no",
         "page": "phb 263",
         "range": "Touch",
@@ -899,7 +899,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Lightning Arrow": {
         "concentration": "yes",
         "page": "phb 255",
         "range": "Self",
@@ -912,7 +912,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Hypnotic Pattern": {
         "concentration": "yes",
         "page": "phb 252",
         "range": "120 feet",
@@ -925,7 +925,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Teleport": {
         "concentration": "no",
         "page": "phb 281",
         "range": "10 feet",
@@ -938,7 +938,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Jump": {
         "concentration": "no",
         "page": "phb 254",
         "range": "Touch",
@@ -951,7 +951,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Mold Earth": {
         "concentration": "no",
         "page": "ee 21",
         "range": "30 feet",
@@ -964,7 +964,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Gentle Repose": {
         "concentration": "no",
         "page": "phb 245",
         "range": "Touch",
@@ -977,7 +977,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Wizard": "yes"}
     },
-    {
+    "Magic Mouth": {
         "concentration": "no",
         "page": "phb 257",
         "range": "30 feet",
@@ -990,7 +990,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Enlarge/Reduce": {
         "concentration": "yes",
         "page": "phb 237",
         "range": "30 feet",
@@ -1003,7 +1003,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Cloudkill": {
         "concentration": "yes",
         "page": "phb 222",
         "range": "120 feet",
@@ -1016,7 +1016,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Feather Fall": {
         "concentration": "no",
         "page": "phb 239",
         "range": "60 feet",
@@ -1029,7 +1029,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Lesser Restoration": {
         "concentration": "no",
         "page": "phb 255",
         "range": "Touch",
@@ -1042,7 +1042,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Ranger": "yes", "Paladin": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Maelstrom": {
         "concentration": "yes",
         "page": "ee 20",
         "range": "120 feet",
@@ -1055,7 +1055,7 @@
         "school": "Evocation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Message": {
         "concentration": "no",
         "page": "phb 259",
         "range": "120 feet",
@@ -1068,7 +1068,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Mending": {
         "concentration": "no",
         "page": "phb 259",
         "range": "Touch",
@@ -1081,7 +1081,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Flame Strike": {
         "concentration": "no",
         "page": "phb 242",
         "range": "60 feet",
@@ -1094,7 +1094,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Vampiric Touch": {
         "concentration": "yes",
         "page": "phb 285",
         "range": "Self",
@@ -1107,7 +1107,7 @@
         "school": "Necromancy",
         "class": {"Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Blink": {
         "concentration": "no",
         "page": "phb 219",
         "range": "Self",
@@ -1120,7 +1120,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Water Breathing": {
         "concentration": "no",
         "page": "phb 287",
         "range": "30 feet",
@@ -1133,7 +1133,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Chromatic Orb": {
         "concentration": "no",
         "page": "phb 221",
         "range": "90 feet",
@@ -1146,7 +1146,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Druidcraft": {
         "concentration": "no",
         "page": "phb 236",
         "range": "30 feet",
@@ -1159,7 +1159,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Legend Lore": {
         "concentration": "no",
         "page": "phb 254",
         "range": "Self",
@@ -1172,7 +1172,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Charm Person": {
         "concentration": "no",
         "page": "phb 221",
         "range": "30 feet",
@@ -1185,7 +1185,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Clone": {
         "concentration": "no",
         "page": "phb 222",
         "range": "Touch",
@@ -1198,7 +1198,7 @@
         "school": "Necromancy",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Animal Shapes": {
         "concentration": "yes",
         "page": "phb 212",
         "range": "30 feet",
@@ -1211,7 +1211,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Telekinesis": {
         "concentration": "yes",
         "page": "phb 280",
         "range": "60 feet",
@@ -1224,7 +1224,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Snilloc's Snowball Swarm": {
         "concentration": "no",
         "page": "ee 22",
         "range": "90 feet",
@@ -1237,7 +1237,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Demiplane": {
         "concentration": "no",
         "page": "phb 231",
         "range": "60 feet",
@@ -1250,7 +1250,7 @@
         "school": "Conjuration",
         "class": {"Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Antilife Shell": {
         "concentration": "yes",
         "page": "phb 213",
         "range": "Self",
@@ -1263,7 +1263,7 @@
         "school": "Abjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Warding Wind": {
         "concentration": "yes",
         "page": "ee 23",
         "range": "Self",
@@ -1276,7 +1276,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Counterspell": {
         "concentration": "no",
         "page": "phb 228",
         "range": "60 feet",
@@ -1289,7 +1289,7 @@
         "school": "Abjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Nondetection": {
         "concentration": "no",
         "page": "phb 263",
         "range": "Touch",
@@ -1302,7 +1302,7 @@
         "school": "Abjuration",
         "class": {"Ranger": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Fire Storm": {
         "concentration": "no",
         "page": "phb 242",
         "range": "150 feet",
@@ -1315,7 +1315,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Druid": "yes"}
     },
-    {
+    "Aura of Vitality": {
         "concentration": "yes",
         "page": "phb 216",
         "range": "Self",
@@ -1328,7 +1328,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Gate": {
         "concentration": "yes",
         "page": "phb 244",
         "range": "60 feet",
@@ -1341,7 +1341,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Seeming": {
         "concentration": "no",
         "page": "phb 274",
         "range": "30 feet",
@@ -1354,7 +1354,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Feign Death": {
         "concentration": "no",
         "page": "phb 240",
         "range": "Touch",
@@ -1367,7 +1367,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Wind Walk": {
         "concentration": "no",
         "page": "phb 288",
         "range": "30 feet",
@@ -1380,7 +1380,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Speak with Dead": {
         "concentration": "no",
         "page": "phb 277",
         "range": "10 feet",
@@ -1393,7 +1393,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Bard": "yes"}
     },
-    {
+    "True Strike": {
         "concentration": "yes",
         "page": "phb 284",
         "range": "30 feet",
@@ -1406,7 +1406,7 @@
         "school": "Divination",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Locate Creature": {
         "concentration": "yes",
         "page": "phb 256",
         "range": "Self",
@@ -1419,7 +1419,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Ranger": "yes", "Wizard": "yes", "Paladin": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Enthrall": {
         "concentration": "no",
         "page": "phb 238",
         "range": "60 feet",
@@ -1432,7 +1432,7 @@
         "school": "Enchantment",
         "class": {"Warlock": "yes", "Bard": "yes"}
     },
-    {
+    "Create Food and Water": {
         "concentration": "no",
         "page": "phb 229",
         "range": "30 feet",
@@ -1445,7 +1445,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Dancing Lights": {
         "concentration": "yes",
         "page": "phb 230",
         "range": "120 feet",
@@ -1458,7 +1458,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Meld into Stone": {
         "concentration": "no",
         "page": "phb 259",
         "range": "Touch",
@@ -1471,7 +1471,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Sacred Flame": {
         "concentration": "no",
         "page": "phb 272",
         "range": "60 feet",
@@ -1484,7 +1484,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Expeditious Retreat": {
         "concentration": "yes",
         "page": "phb 238",
         "range": "Self",
@@ -1497,7 +1497,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Searing Smite": {
         "concentration": "yes",
         "page": "phb 274",
         "range": "Self",
@@ -1510,7 +1510,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "False Life": {
         "concentration": "no",
         "page": "phb 239",
         "range": "Self",
@@ -1523,7 +1523,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Reincarnate": {
         "concentration": "no",
         "page": "phb 271",
         "range": "Touch",
@@ -1536,7 +1536,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Animate Dead": {
         "concentration": "no",
         "page": "phb 212",
         "range": "10 feet",
@@ -1549,7 +1549,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Wizard": "yes"}
     },
-    {
+    "True Polymorph": {
         "concentration": "yes",
         "page": "phb 283",
         "range": "30 feet",
@@ -1562,7 +1562,7 @@
         "school": "Transmutation",
         "class": {"Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Blindness/Deafness": {
         "concentration": "no",
         "page": "phb 219",
         "range": "30 feet",
@@ -1575,7 +1575,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Simulacrum": {
         "concentration": "no",
         "page": "phb 276",
         "range": "Touch",
@@ -1588,7 +1588,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Drawmij's Instant Summons": {
         "concentration": "no",
         "page": "phb 235",
         "range": "Touch",
@@ -1602,7 +1602,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Mordenkainen's Magnificent Mansion": {
         "concentration": "no",
         "page": "phb 261",
         "range": "300 feet",
@@ -1616,7 +1616,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Wish": {
         "concentration": "no",
         "page": "phb 288",
         "range": "Self",
@@ -1629,7 +1629,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Earthbind": {
         "concentration": "yes",
         "page": "ee 17",
         "range": "300 feet",
@@ -1642,7 +1642,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "True Resurrection": {
         "concentration": "no",
         "page": "phb 284",
         "range": "Touch",
@@ -1655,7 +1655,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Speak with Plants": {
         "concentration": "no",
         "page": "phb 277",
         "range": "Self",
@@ -1668,7 +1668,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Heat Metal": {
         "concentration": "yes",
         "page": "phb 250",
         "range": "60 feet",
@@ -1681,7 +1681,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Wall of Ice": {
         "concentration": "yes",
         "page": "phb 285",
         "range": "120 feet",
@@ -1694,7 +1694,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Scrying": {
         "concentration": "yes",
         "page": "phb 273",
         "range": "Self",
@@ -1707,7 +1707,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Forcecage": {
         "concentration": "no",
         "page": "phb 243",
         "range": "100 feet",
@@ -1720,7 +1720,7 @@
         "school": "Evocation",
         "class": {"Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Conjure Fey": {
         "concentration": "yes",
         "page": "phb 226",
         "range": "90 feet",
@@ -1733,7 +1733,7 @@
         "school": "Conjuration",
         "class": {"Warlock": "yes", "Druid": "yes"}
     },
-    {
+    "Compulsion": {
         "concentration": "yes",
         "page": "phb 224",
         "range": "30 feet",
@@ -1746,7 +1746,7 @@
         "school": "Enchantment",
         "class": {"Bard": "yes"}
     },
-    {
+    "Thorn Whip": {
         "concentration": "no",
         "page": "phb 282",
         "range": "30 feet",
@@ -1759,7 +1759,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Glibness": {
         "concentration": "no",
         "page": "phb 245",
         "range": "Self",
@@ -1772,7 +1772,7 @@
         "school": "Transmutation",
         "class": {"Warlock": "yes", "Bard": "yes"}
     },
-    {
+    "Geas": {
         "concentration": "no",
         "page": "phb 244",
         "range": "60 feet",
@@ -1785,7 +1785,7 @@
         "school": "Enchantment",
         "class": {"Cleric": "yes", "Wizard": "yes", "Paladin": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Enhance Ability": {
         "concentration": "yes",
         "page": "phb 237",
         "range": "Touch",
@@ -1798,7 +1798,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Otiluke's Resilient Sphere": {
         "concentration": "yes",
         "page": "phb 264",
         "range": "30 feet",
@@ -1812,7 +1812,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Remove Curse": {
         "concentration": "no",
         "page": "phb 271",
         "range": "Touch",
@@ -1825,7 +1825,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Warlock": "yes", "Wizard": "yes", "Paladin": "yes"}
     },
-    {
+    "Dimension Door": {
         "concentration": "no",
         "page": "phb 233",
         "range": "500 feet",
@@ -1838,7 +1838,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Dream": {
         "concentration": "no",
         "page": "phb 236",
         "range": "Special",
@@ -1851,7 +1851,7 @@
         "school": "Illusion",
         "class": {"Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Astral Projection": {
         "concentration": "no",
         "page": "phb 215",
         "range": "10 feet",
@@ -1864,7 +1864,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Staggering Smite": {
         "concentration": "yes",
         "page": "phb 278",
         "range": "Self",
@@ -1877,7 +1877,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Investiture of Wind": {
         "concentration": "yes",
         "page": "ee 20",
         "range": "Self",
@@ -1890,7 +1890,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Destructive Smite": {
         "concentration": "no",
         "page": "phb 231",
         "range": "Self",
@@ -1903,7 +1903,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Mage Armor": {
         "concentration": "no",
         "page": "phb 256",
         "range": "Touch",
@@ -1916,7 +1916,7 @@
         "school": "Abjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Immolation": {
         "concentration": "yes",
         "page": "ee 19",
         "range": "90 feet",
@@ -1929,7 +1929,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Unseen Servant": {
         "concentration": "no",
         "page": "phb 284",
         "range": "60 feet",
@@ -1942,7 +1942,7 @@
         "school": "Conjuration",
         "class": {"Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Gust": {
         "concentration": "no",
         "page": "ee 19",
         "range": "30 feet",
@@ -1955,7 +1955,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Antipathy/Sympathy": {
         "concentration": "no",
         "page": "phb 214",
         "range": "60 feet",
@@ -1968,7 +1968,7 @@
         "school": "Enchantment",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Shape Water": {
         "concentration": "no",
         "page": "ee 21",
         "range": "30 feet",
@@ -1981,7 +1981,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Tasha's Hideous Laughter": {
         "concentration": "yes",
         "page": "phb 280",
         "range": "30 feet",
@@ -1995,7 +1995,7 @@
         "school": "Enchantment",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Sunburst": {
         "concentration": "no",
         "page": "phb 279",
         "range": "150 feet",
@@ -2008,7 +2008,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Pyrotechnics": {
         "concentration": "no",
         "page": "ee 21",
         "range": "60 feet",
@@ -2021,7 +2021,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Find the Path": {
         "concentration": "yes",
         "page": "phb 240",
         "range": "Self",
@@ -2034,7 +2034,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Daylight": {
         "concentration": "no",
         "page": "phb 230",
         "range": "60 feet",
@@ -2047,7 +2047,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Ranger": "yes", "Paladin": "yes", "Druid": "yes"}
     },
-    {
+    "Fog Cloud": {
         "concentration": "yes",
         "page": "phb 243",
         "range": "120 feet",
@@ -2060,7 +2060,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Poison Spray": {
         "concentration": "no",
         "page": "phb 266",
         "range": "10 feet",
@@ -2073,7 +2073,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Wall of Thorns": {
         "concentration": "yes",
         "page": "phb 287",
         "range": "120 feet",
@@ -2086,7 +2086,7 @@
         "school": "Conjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Augury": {
         "concentration": "no",
         "page": "phb 215",
         "range": "Self",
@@ -2099,7 +2099,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Catapult": {
         "concentration": "no",
         "page": "ee 15",
         "range": "150 feet",
@@ -2112,7 +2112,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Lightning Bolt": {
         "concentration": "no",
         "page": "phb 255",
         "range": "Self",
@@ -2125,7 +2125,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Thunderwave": {
         "concentration": "no",
         "page": "phb 282",
         "range": "Self",
@@ -2138,7 +2138,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Detect Magic": {
         "concentration": "yes",
         "page": "phb 231",
         "range": "Self",
@@ -2159,7 +2159,7 @@
             "Bard": "yes"
         }
     },
-    {
+    "Create or Destroy Water": {
         "concentration": "no",
         "page": "phb 229",
         "range": "30 feet",
@@ -2172,7 +2172,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Cure Wounds": {
         "concentration": "no",
         "page": "phb 230",
         "range": "Touch",
@@ -2185,7 +2185,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Ranger": "yes", "Paladin": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Divine Favor": {
         "concentration": "yes",
         "page": "phb 234",
         "range": "Self",
@@ -2198,7 +2198,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Watery Sphere": {
         "concentration": "yes",
         "page": "ee 23",
         "range": "90 feet",
@@ -2211,7 +2211,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Web": {
         "concentration": "yes",
         "page": "phb 287",
         "range": "60 feet",
@@ -2224,7 +2224,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Absorb Elements": {
         "concentration": "no",
         "page": "ee 15",
         "range": "Self",
@@ -2237,7 +2237,7 @@
         "school": "Abjuration",
         "class": {"Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Aura of Life": {
         "concentration": "yes",
         "page": "phb 216",
         "range": "Self",
@@ -2250,7 +2250,7 @@
         "school": "Abjuration",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Maximilian's Earthen Grasp": {
         "concentration": "yes",
         "page": "ee 20",
         "range": "30 feet",
@@ -2263,7 +2263,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Circle of Power": {
         "concentration": "yes",
         "page": "phb 221",
         "range": "Self",
@@ -2276,7 +2276,7 @@
         "school": "Abjuration",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Protection from Evil and Good": {
         "concentration": "yes",
         "page": "phb 270",
         "range": "Touch",
@@ -2289,7 +2289,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Warlock": "yes", "Wizard": "yes", "Paladin": "yes"}
     },
-    {
+    "Silence": {
         "concentration": "yes",
         "page": "phb 275",
         "range": "120 feet",
@@ -2302,7 +2302,7 @@
         "school": "Illusion",
         "class": {"Cleric": "yes", "Ranger": "yes", "Bard": "yes"}
     },
-    {
+    "Leomund's Secret Chest": {
         "concentration": "no",
         "page": "phb 254",
         "range": "Touch",
@@ -2316,7 +2316,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Primordial Ward": {
         "concentration": "yes",
         "page": "ee 21",
         "range": "Self",
@@ -2329,7 +2329,7 @@
         "school": "Abjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Passwall": {
         "concentration": "no",
         "page": "phb 264",
         "range": "30 feet",
@@ -2342,7 +2342,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Erupting Earth": {
         "concentration": "no",
         "page": "ee 17",
         "range": "120 feet",
@@ -2355,7 +2355,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Compelled Duel": {
         "concentration": "yes",
         "page": "phb 224",
         "range": "30 feet",
@@ -2368,7 +2368,7 @@
         "school": "Enchantment",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Find Familiar": {
         "concentration": "no",
         "page": "phb 240",
         "range": "10 feet",
@@ -2381,7 +2381,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Symbol": {
         "concentration": "no",
         "page": "phb 280",
         "range": "Touch",
@@ -2394,7 +2394,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Word of Recall": {
         "concentration": "no",
         "page": "phb 289",
         "range": "5 feet",
@@ -2407,7 +2407,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Gaseous Form": {
         "concentration": "yes",
         "page": "phb 244",
         "range": "Touch",
@@ -2420,7 +2420,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Magic Jar": {
         "concentration": "no",
         "page": "phb 257",
         "range": "Self",
@@ -2433,7 +2433,7 @@
         "school": "Necromancy",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Earth Tremor": {
         "concentration": "no",
         "page": "ee 17",
         "range": "Self",
@@ -2446,7 +2446,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Color Spray": {
         "concentration": "no",
         "page": "phb 222",
         "range": "Self",
@@ -2459,7 +2459,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Branding Smite": {
         "concentration": "yes",
         "page": "phb 219",
         "range": "Self",
@@ -2472,7 +2472,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Swift Quiver": {
         "concentration": "yes",
         "page": "phb 279",
         "range": "Touch",
@@ -2485,7 +2485,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Detect Evil and Good": {
         "concentration": "yes",
         "page": "phb 231",
         "range": "Self",
@@ -2498,7 +2498,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Bane": {
         "concentration": "yes",
         "page": "phb 216",
         "range": "30 feet",
@@ -2511,7 +2511,7 @@
         "school": "Enchantment",
         "class": {"Cleric": "yes", "Bard": "yes"}
     },
-    {
+    "Barkskin": {
         "concentration": "yes",
         "page": "phb 217",
         "range": "Touch",
@@ -2524,7 +2524,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Animal Messenger": {
         "concentration": "no",
         "page": "phb 212",
         "range": "30 feet",
@@ -2537,7 +2537,7 @@
         "school": "Enchantment",
         "class": {"Ranger": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Grease": {
         "concentration": "no",
         "page": "phb 246",
         "range": "60 feet",
@@ -2550,7 +2550,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Whirlwind": {
         "concentration": "yes",
         "page": "ee 24",
         "range": "300 feet",
@@ -2563,7 +2563,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Wind Wall": {
         "concentration": "yes",
         "page": "phb 288",
         "range": "120 feet",
@@ -2576,7 +2576,7 @@
         "school": "Evocation",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Hunger of Hadar": {
         "concentration": "yes",
         "page": "phb 251",
         "range": "150 feet",
@@ -2589,7 +2589,7 @@
         "school": "Conjuration",
         "class": {"Warlock": "yes"}
     },
-    {
+    "Sequester": {
         "concentration": "no",
         "page": "phb 274",
         "range": "Touch",
@@ -2602,7 +2602,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Ray of Enfeeblement": {
         "concentration": "yes",
         "page": "phb 271",
         "range": "60 feet",
@@ -2615,7 +2615,7 @@
         "school": "Necromancy",
         "class": {"Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Etherealness": {
         "concentration": "no",
         "page": "phb 238",
         "range": "Self",
@@ -2628,7 +2628,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Glyph of Warding": {
         "concentration": "no",
         "page": "phb 245",
         "range": "Touch",
@@ -2641,7 +2641,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Wall of Water": {
         "concentration": "yes",
         "page": "ee 23",
         "range": "60 feet",
@@ -2654,7 +2654,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Vicious Mockery": {
         "concentration": "no",
         "page": "phb 285",
         "range": "60 feet",
@@ -2667,7 +2667,7 @@
         "school": "Enchantment",
         "class": {"Bard": "yes"}
     },
-    {
+    "Protection from Energy": {
         "concentration": "yes",
         "page": "phb 270",
         "range": "Touch",
@@ -2680,7 +2680,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Identify": {
         "concentration": "no",
         "page": "phb 252",
         "range": "Touch",
@@ -2693,7 +2693,7 @@
         "school": "Divination",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Conjure Barrage": {
         "concentration": "no",
         "page": "phb 225",
         "range": "Self",
@@ -2706,7 +2706,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Goodberry": {
         "concentration": "no",
         "page": "phb 246",
         "range": "Touch",
@@ -2719,7 +2719,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Protection from Poison": {
         "concentration": "no",
         "page": "phb 270",
         "range": "Touch",
@@ -2732,7 +2732,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Ranger": "yes", "Paladin": "yes", "Druid": "yes"}
     },
-    {
+    "Plane Shift": {
         "concentration": "no",
         "page": "phb 266",
         "range": "Touch",
@@ -2745,7 +2745,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Create Undead": {
         "concentration": "no",
         "page": "phb 229",
         "range": "10 feet",
@@ -2758,7 +2758,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Resistance": {
         "concentration": "yes",
         "page": "phb 272",
         "range": "Touch",
@@ -2771,7 +2771,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Conjure Minor Elementals": {
         "concentration": "yes",
         "page": "phb 226",
         "range": "90 feet",
@@ -2784,7 +2784,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Globe of Invulnerability": {
         "concentration": "yes",
         "page": "phb 245",
         "range": "Self",
@@ -2797,7 +2797,7 @@
         "school": "Abjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Power Word Heal": {
         "concentration": "no",
         "page": "phb 266",
         "range": "Touch",
@@ -2810,7 +2810,7 @@
         "school": "Evocation",
         "class": {"Bard": "yes"}
     },
-    {
+    "Animal Friendship": {
         "concentration": "no",
         "page": "phb 212",
         "range": "30 feet",
@@ -2823,7 +2823,7 @@
         "school": "Enchantment",
         "class": {"Ranger": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Call Lightning": {
         "concentration": "yes",
         "page": "phb 220",
         "range": "120 feet",
@@ -2836,7 +2836,7 @@
         "school": "Conjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Contact Other Plane": {
         "concentration": "no",
         "page": "phb 226",
         "range": "Self",
@@ -2849,7 +2849,7 @@
         "school": "Divination",
         "class": {"Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Hold Person": {
         "concentration": "yes",
         "page": "phb 251",
         "range": "60 feet",
@@ -2862,7 +2862,7 @@
         "school": "Enchantment",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Phantasmal Killer": {
         "concentration": "yes",
         "page": "phb 265",
         "range": "120 feet",
@@ -2875,7 +2875,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Frostbite": {
         "concentration": "no",
         "page": "ee 18",
         "range": "60 feet",
@@ -2888,7 +2888,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Heroism": {
         "concentration": "yes",
         "page": "phb 250",
         "range": "Touch",
@@ -2901,7 +2901,7 @@
         "school": "Enchantment",
         "class": {"Paladin": "yes", "Bard": "yes"}
     },
-    {
+    "Shield": {
         "concentration": "no",
         "page": "phb 275",
         "range": "Self",
@@ -2914,7 +2914,7 @@
         "school": "Abjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Banishment": {
         "concentration": "yes",
         "page": "phb 217",
         "range": "60 feet",
@@ -2927,7 +2927,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Paladin": "yes"}
     },
-    {
+    "See Invisibility": {
         "concentration": "no",
         "page": "phb 274",
         "range": "Self",
@@ -2940,7 +2940,7 @@
         "school": "Divination",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Earthquake": {
         "concentration": "yes",
         "page": "phb 236",
         "range": "500 feet",
@@ -2953,7 +2953,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Druid": "yes"}
     },
-    {
+    "Locate Object": {
         "concentration": "yes",
         "page": "phb 256",
         "range": "Self",
@@ -2966,7 +2966,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Ranger": "yes", "Wizard": "yes", "Paladin": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Meteor Swarm": {
         "concentration": "no",
         "page": "phb 259",
         "range": "1 mile",
@@ -2979,7 +2979,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Tongues": {
         "concentration": "no",
         "page": "phb 283",
         "range": "Touch",
@@ -2992,7 +2992,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Minor Illusion": {
         "concentration": "no",
         "page": "phb 260",
         "range": "30 feet",
@@ -3005,7 +3005,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Elemental Bane": {
         "concentration": "yes",
         "page": "ee 17",
         "range": "90 feet",
@@ -3018,7 +3018,7 @@
         "school": "Transmutation",
         "class": {"Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Haste": {
         "concentration": "yes",
         "page": "phb 250",
         "range": "30 feet",
@@ -3031,7 +3031,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Wall of Force": {
         "concentration": "yes",
         "page": "phb 285",
         "range": "120 feet",
@@ -3044,7 +3044,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Wall of Stone": {
         "concentration": "yes",
         "page": "phb 287",
         "range": "120 feet",
@@ -3057,7 +3057,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Flame Blade": {
         "concentration": "yes",
         "page": "phb 242",
         "range": "Self",
@@ -3070,7 +3070,7 @@
         "school": "Evocation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Darkvision": {
         "concentration": "no",
         "page": "phb 230",
         "range": "Touch",
@@ -3083,7 +3083,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Calm Emotions": {
         "concentration": "yes",
         "page": "phb 221",
         "range": "60 feet",
@@ -3096,7 +3096,7 @@
         "school": "Enchantment",
         "class": {"Cleric": "yes", "Bard": "yes"}
     },
-    {
+    "Bones of the Earth": {
         "concentration": "no",
         "page": "ee 15",
         "range": "120 feet",
@@ -3109,7 +3109,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Telepathy": {
         "concentration": "no",
         "page": "phb 281",
         "range": "Unlimited",
@@ -3122,7 +3122,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Slow": {
         "concentration": "yes",
         "page": "phb 277",
         "range": "120 feet",
@@ -3135,7 +3135,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Blade Barrier": {
         "concentration": "yes",
         "page": "phb 218",
         "range": "90 feet",
@@ -3148,7 +3148,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Aid": {
         "concentration": "no",
         "page": "phb 211",
         "range": "30 feet",
@@ -3161,7 +3161,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Delayed Blast Fireball": {
         "concentration": "yes",
         "page": "phb 230",
         "range": "150 feet",
@@ -3174,7 +3174,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Armor of Agathys": {
         "concentration": "no",
         "page": "phb 215",
         "range": "Self",
@@ -3187,7 +3187,7 @@
         "school": "Abjuration",
         "class": {"Warlock": "yes"}
     },
-    {
+    "Elemental Weapon": {
         "concentration": "yes",
         "page": "phb 237",
         "range": "Touch",
@@ -3200,7 +3200,7 @@
         "school": "Transmutation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Shillelagh": {
         "concentration": "no",
         "page": "phb 275",
         "range": "Touch",
@@ -3213,7 +3213,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Alter Self": {
         "concentration": "yes",
         "page": "phb 211",
         "range": "Self",
@@ -3226,7 +3226,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Control Water": {
         "concentration": "yes",
         "page": "phb 227",
         "range": "300 feet",
@@ -3239,7 +3239,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Ray of Frost": {
         "concentration": "no",
         "page": "phb 271",
         "range": "60 feet",
@@ -3252,7 +3252,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Dust Devil": {
         "concentration": "yes",
         "page": "ee 17",
         "range": "60 feet",
@@ -3265,7 +3265,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Friends": {
         "concentration": "yes",
         "page": "phb 244",
         "range": "Self",
@@ -3278,7 +3278,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Stinking Cloud": {
         "concentration": "yes",
         "page": "phb 278",
         "range": "90 feet",
@@ -3291,7 +3291,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Raise Dead": {
         "concentration": "no",
         "page": "phb 270",
         "range": "Touch",
@@ -3304,7 +3304,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Paladin": "yes", "Bard": "yes"}
     },
-    {
+    "Disguise Self": {
         "concentration": "no",
         "page": "phb 233",
         "range": "Self",
@@ -3317,7 +3317,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Incendiary Cloud": {
         "concentration": "yes",
         "page": "phb 253",
         "range": "150 feet",
@@ -3330,7 +3330,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Insect Plague": {
         "concentration": "yes",
         "page": "phb 254",
         "range": "300 feet",
@@ -3343,7 +3343,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Druid": "yes"}
     },
-    {
+    "Prayer of Healing": {
         "concentration": "no",
         "page": "phb 267",
         "range": "30 feet",
@@ -3356,7 +3356,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Dispel Magic": {
         "concentration": "no",
         "page": "phb 234",
         "range": "120 feet",
@@ -3377,7 +3377,7 @@
             "Bard": "yes"
         }
     },
-    {
+    "Invisibility": {
         "concentration": "yes",
         "page": "phb 254",
         "range": "Touch",
@@ -3390,7 +3390,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Aganazzar's Scorcher": {
         "concentration": "no",
         "page": "ee 15",
         "range": "30 feet",
@@ -3403,7 +3403,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Arms of Hadar": {
         "concentration": "no",
         "page": "phb 215",
         "range": "Self",
@@ -3416,7 +3416,7 @@
         "school": "Conjuration",
         "class": {"Warlock": "yes"}
     },
-    {
+    "Find Traps": {
         "concentration": "no",
         "page": "phb 241",
         "range": "120 feet",
@@ -3429,7 +3429,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Polymorph": {
         "concentration": "yes",
         "page": "phb 266",
         "range": "60 feet",
@@ -3442,7 +3442,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Beast Bond": {
         "concentration": "yes",
         "page": "ee 15",
         "range": "Touch",
@@ -3455,7 +3455,7 @@
         "school": "Divination",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Aura of Purity": {
         "concentration": "yes",
         "page": "phb 216",
         "range": "Self",
@@ -3468,7 +3468,7 @@
         "school": "Abjuration",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Confusion": {
         "concentration": "yes",
         "page": "phb 224",
         "range": "90 feet",
@@ -3481,7 +3481,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Teleportation Circle": {
         "concentration": "no",
         "page": "phb 282",
         "range": "10 feet",
@@ -3494,7 +3494,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Ray of Sickness": {
         "concentration": "no",
         "page": "phb 271",
         "range": "60 feet",
@@ -3507,7 +3507,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Find Steed": {
         "concentration": "no",
         "page": "phb 240",
         "range": "30 feet",
@@ -3520,7 +3520,7 @@
         "school": "Conjuration",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Fire Shield": {
         "concentration": "no",
         "page": "phb 242",
         "range": "Self",
@@ -3533,7 +3533,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Plant Growth": {
         "concentration": "no",
         "page": "phb 266",
         "range": "150 feet",
@@ -3546,7 +3546,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Detect Poison and Disease": {
         "concentration": "yes",
         "page": "phb 231",
         "range": "Self",
@@ -3559,7 +3559,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Ranger": "yes", "Paladin": "yes", "Druid": "yes"}
     },
-    {
+    "Fear": {
         "concentration": "yes",
         "page": "phb 239",
         "range": "Self",
@@ -3572,7 +3572,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Leomund's Tiny Hut": {
         "concentration": "no",
         "page": "phb 255",
         "range": "Self",
@@ -3586,7 +3586,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Bless": {
         "concentration": "yes",
         "page": "phb 219",
         "range": "30 feet",
@@ -3599,7 +3599,7 @@
         "school": "Enchantment",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Spirit Guardians": {
         "concentration": "yes",
         "page": "phb 278",
         "range": "Self",
@@ -3612,7 +3612,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Speak with Animals": {
         "concentration": "no",
         "page": "phb 277",
         "range": "Self",
@@ -3625,7 +3625,7 @@
         "school": "Divination",
         "class": {"Ranger": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Resurrection": {
         "concentration": "no",
         "page": "phb 272",
         "range": "Touch",
@@ -3638,7 +3638,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Bard": "yes"}
     },
-    {
+    "Harm": {
         "concentration": "no",
         "page": "phb 249",
         "range": "60 feet",
@@ -3651,7 +3651,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Hex": {
         "concentration": "yes",
         "page": "phb 251",
         "range": "90 feet",
@@ -3664,7 +3664,7 @@
         "school": "Enchantment",
         "class": {"Warlock": "yes"}
     },
-    {
+    "Blinding Smite": {
         "concentration": "yes",
         "page": "phb 219",
         "range": "Self",
@@ -3677,7 +3677,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Disintegrate": {
         "concentration": "no",
         "page": "phb 233",
         "range": "60 feet",
@@ -3690,7 +3690,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Ensnaring Strike": {
         "concentration": "yes",
         "page": "phb 237",
         "range": "Self",
@@ -3703,7 +3703,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Fly": {
         "concentration": "yes",
         "page": "phb 243",
         "range": "Touch",
@@ -3716,7 +3716,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Guardian of Faith": {
         "concentration": "no",
         "page": "phb 246",
         "range": "30 feet",
@@ -3729,7 +3729,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Heal": {
         "concentration": "no",
         "page": "phb 250",
         "range": "60 feet",
@@ -3742,7 +3742,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Druid": "yes"}
     },
-    {
+    "Reverse Gravity": {
         "concentration": "yes",
         "page": "phb 272",
         "range": "100 feet",
@@ -3755,7 +3755,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Mage Hand": {
         "concentration": "no",
         "page": "phb 256",
         "range": "30 feet",
@@ -3768,7 +3768,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Dominate Beast": {
         "concentration": "yes",
         "page": "phb 234",
         "range": "60 feet",
@@ -3781,7 +3781,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Druid": "yes"}
     },
-    {
+    "Weird": {
         "concentration": "yes",
         "page": "phb 288",
         "range": "120 feet",
@@ -3794,7 +3794,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Dispel Evil and Good": {
         "concentration": "yes",
         "page": "phb 233",
         "range": "Self",
@@ -3807,7 +3807,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Banishing Smite": {
         "concentration": "yes",
         "page": "phb 216",
         "range": "Self",
@@ -3820,7 +3820,7 @@
         "school": "Abjuration",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Commune": {
         "concentration": "no",
         "page": "phb 223",
         "range": "Self",
@@ -3833,7 +3833,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Shapechange": {
         "concentration": "yes",
         "page": "phb 274",
         "range": "Self",
@@ -3846,7 +3846,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Maze": {
         "concentration": "yes",
         "page": "phb 258",
         "range": "60 feet",
@@ -3859,7 +3859,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Divine Word": {
         "concentration": "no",
         "page": "phb 234",
         "range": "30 feet",
@@ -3872,7 +3872,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Awaken": {
         "concentration": "no",
         "page": "phb 216",
         "range": "Touch",
@@ -3885,7 +3885,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Prismatic Wall": {
         "concentration": "no",
         "page": "phb 267",
         "range": "60 feet",
@@ -3898,7 +3898,7 @@
         "school": "Abjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Spider Climb": {
         "concentration": "yes",
         "page": "phb 277",
         "range": "Touch",
@@ -3911,7 +3911,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Purify Food and Drink": {
         "concentration": "no",
         "page": "phb 270",
         "range": "10 feet",
@@ -3924,7 +3924,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Paladin": "yes", "Druid": "yes"}
     },
-    {
+    "Cordon of Arrows": {
         "concentration": "no",
         "page": "phb 228",
         "range": "5 feet",
@@ -3937,7 +3937,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Power Word Stun": {
         "concentration": "no",
         "page": "phb 267",
         "range": "60 feet",
@@ -3950,7 +3950,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Wrathful Smite": {
         "concentration": "yes",
         "page": "phb 289",
         "range": "Self",
@@ -3963,7 +3963,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Stone Shape": {
         "concentration": "no",
         "page": "phb 278",
         "range": "Touch",
@@ -3976,7 +3976,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Otto's Irresistible Dance": {
         "concentration": "yes",
         "page": "phb 264",
         "range": "30 feet",
@@ -3990,7 +3990,7 @@
         "school": "Enchantment",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Arcane Gate": {
         "concentration": "yes",
         "page": "phb 214",
         "range": "500 feet",
@@ -4003,7 +4003,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Entangle": {
         "concentration": "yes",
         "page": "phb 238",
         "range": "90 feet",
@@ -4016,7 +4016,7 @@
         "school": "Conjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Wall of Sand": {
         "concentration": "yes",
         "page": "ee 23",
         "range": "90 feet",
@@ -4029,7 +4029,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Illusory Script": {
         "concentration": "no",
         "page": "phb 252",
         "range": "Touch",
@@ -4042,7 +4042,7 @@
         "school": "Illusion",
         "class": {"Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Transmute Rock": {
         "concentration": "no",
         "page": "ee 22",
         "range": "120 feet",
@@ -4055,7 +4055,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Regenerate": {
         "concentration": "no",
         "page": "phb 271",
         "range": "Touch",
@@ -4068,7 +4068,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Mordenkainen's Sword": {
         "concentration": "yes",
         "page": "phb 262",
         "range": "60 feet",
@@ -4082,7 +4082,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Misty Step": {
         "concentration": "no",
         "page": "phb 260",
         "range": "Self",
@@ -4095,7 +4095,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Shield of Faith": {
         "concentration": "yes",
         "page": "phb 275",
         "range": "60 feet",
@@ -4108,7 +4108,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Planar Binding": {
         "concentration": "no",
         "page": "phb 265",
         "range": "60 feet",
@@ -4121,7 +4121,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Phantom Steed": {
         "concentration": "no",
         "page": "phb 265",
         "range": "30 feet",
@@ -4134,7 +4134,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Blade Ward": {
         "concentration": "no",
         "page": "phb 218",
         "range": "Self",
@@ -4147,7 +4147,7 @@
         "school": "Abjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Darkness": {
         "concentration": "yes",
         "page": "phb 230",
         "range": "60 feet",
@@ -4160,7 +4160,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Investiture of Stone": {
         "concentration": "yes",
         "page": "ee 19",
         "range": "Self",
@@ -4173,7 +4173,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Grasping Vine": {
         "concentration": "yes",
         "page": "phb 246",
         "range": "30 feet",
@@ -4186,7 +4186,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Hold Monster": {
         "concentration": "yes",
         "page": "phb 251",
         "range": "90 feet",
@@ -4199,7 +4199,7 @@
         "school": "Enchantment",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Spare the Dying": {
         "concentration": "no",
         "page": "phb 277",
         "range": "Touch",
@@ -4212,7 +4212,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Finger of Death": {
         "concentration": "no",
         "page": "phb 241",
         "range": "60 feet",
@@ -4225,7 +4225,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Mirage Arcane": {
         "concentration": "no",
         "page": "phb 260",
         "range": "Sight",
@@ -4238,7 +4238,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Mordenkainen's Faithful Hound": {
         "concentration": "no",
         "page": "phb 261",
         "range": "30 feet",
@@ -4252,7 +4252,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Creation": {
         "concentration": "no",
         "page": "phb 229",
         "range": "30 feet",
@@ -4265,7 +4265,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Antimagic Field": {
         "concentration": "yes",
         "page": "phb 213",
         "range": "Self",
@@ -4278,7 +4278,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Wizard": "yes"}
     },
-    {
+    "Guiding Bolt": {
         "concentration": "no",
         "page": "phb 248",
         "range": "120 feet",
@@ -4291,7 +4291,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Comprehend Languages": {
         "concentration": "no",
         "page": "phb 224",
         "range": "Self",
@@ -4304,7 +4304,7 @@
         "school": "Divination",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Mind Blank": {
         "concentration": "no",
         "page": "phb 259",
         "range": "Touch",
@@ -4317,7 +4317,7 @@
         "school": "Abjuration",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Conjure Celestial": {
         "concentration": "yes",
         "page": "phb 225",
         "range": "90 feet",
@@ -4330,7 +4330,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Sanctuary": {
         "concentration": "no",
         "page": "phb 272",
         "range": "30 feet",
@@ -4343,7 +4343,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Death Ward": {
         "concentration": "no",
         "page": "phb 230",
         "range": "Touch",
@@ -4356,7 +4356,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Paladin": "yes"}
     },
-    {
+    "Project Image": {
         "concentration": "yes",
         "page": "phb 270",
         "range": "500 miles",
@@ -4369,7 +4369,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Animate Objects": {
         "concentration": "yes",
         "page": "phb 213",
         "range": "120 feet",
@@ -4382,7 +4382,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Crusader's Mantle": {
         "concentration": "yes",
         "page": "phb 230",
         "range": "Self",
@@ -4395,7 +4395,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Fireball": {
         "concentration": "no",
         "page": "phb 241",
         "range": "150 feet",
@@ -4408,7 +4408,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Otiluke's Freezing Sphere": {
         "concentration": "no",
         "page": "phb 263",
         "range": "300 feet",
@@ -4422,7 +4422,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Mordenkainen's Private Sanctum": {
         "concentration": "no",
         "page": "phb 262",
         "range": "120 feet",
@@ -4436,7 +4436,7 @@
         "school": "Abjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Programmed Illusion": {
         "concentration": "no",
         "page": "phb 269",
         "range": "120 feet",
@@ -4449,7 +4449,7 @@
         "school": "Illusion",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Circle of Death": {
         "concentration": "no",
         "page": "phb 221",
         "range": "150 feet",
@@ -4462,7 +4462,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Gust of Wind": {
         "concentration": "yes",
         "page": "phb 248",
         "range": "Self",
@@ -4475,7 +4475,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Hail of Thorns": {
         "concentration": "yes",
         "page": "phb 249",
         "range": "Self",
@@ -4488,7 +4488,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes"}
     },
-    {
+    "Storm Sphere": {
         "concentration": "yes",
         "page": "ee 22",
         "range": "150 feet",
@@ -4501,7 +4501,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Shocking Grasp": {
         "concentration": "no",
         "page": "phb 275",
         "range": "Touch",
@@ -4514,7 +4514,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Modify Memory": {
         "concentration": "yes",
         "page": "phb 261",
         "range": "30 feet",
@@ -4527,7 +4527,7 @@
         "school": "Enchantment",
         "class": {"Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Mass Cure Wounds": {
         "concentration": "no",
         "page": "phb 258",
         "range": "60 feet",
@@ -4540,7 +4540,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Dissonant Whispers": {
         "concentration": "no",
         "page": "phb 234",
         "range": "60 feet",
@@ -4553,7 +4553,7 @@
         "school": "Enchantment",
         "class": {"Bard": "yes"}
     },
-    {
+    "Transport via Plants": {
         "concentration": "no",
         "page": "phb 283",
         "range": "10 feet",
@@ -4566,7 +4566,7 @@
         "school": "Conjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Eyebite": {
         "concentration": "yes",
         "page": "phb 238",
         "range": "Self",
@@ -4579,7 +4579,7 @@
         "school": "Necromancy",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Ice Storm": {
         "concentration": "no",
         "page": "phb 252",
         "range": "300 feet",
@@ -4592,7 +4592,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Vitriolic Sphere": {
         "concentration": "no",
         "page": "ee 23",
         "range": "150 feet",
@@ -4605,7 +4605,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "True Seeing": {
         "concentration": "no",
         "page": "phb 284",
         "range": "Touch",
@@ -4618,7 +4618,7 @@
         "school": "Divination",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Time Stop": {
         "concentration": "no",
         "page": "phb 283",
         "range": "Self",
@@ -4631,7 +4631,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Detect Thoughts": {
         "concentration": "yes",
         "page": "phb 231",
         "range": "Self",
@@ -4644,7 +4644,7 @@
         "school": "Divination",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Control Winds": {
         "concentration": "yes",
         "page": "ee 16",
         "range": "300 feet",
@@ -4657,7 +4657,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Control Weather": {
         "concentration": "yes",
         "page": "phb 228",
         "range": "Self",
@@ -4670,7 +4670,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Move Earth": {
         "concentration": "yes",
         "page": "phb 263",
         "range": "120 feet",
@@ -4683,7 +4683,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Flame Arrows": {
         "concentration": "yes",
         "page": "ee 18",
         "range": "Touch",
@@ -4696,7 +4696,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Tidal Wave": {
         "concentration": "no",
         "page": "ee 22",
         "range": "120 feet",
@@ -4709,7 +4709,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Cloud of Daggers": {
         "concentration": "yes",
         "page": "phb 222",
         "range": "60 feet",
@@ -4722,7 +4722,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Magic Missile": {
         "concentration": "no",
         "page": "phb 257",
         "range": "120 feet",
@@ -4735,7 +4735,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Moonbeam": {
         "concentration": "yes",
         "page": "phb 261",
         "range": "120 feet",
@@ -4748,7 +4748,7 @@
         "school": "Evocation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Mirror Image": {
         "concentration": "no",
         "page": "phb 260",
         "range": "Self",
@@ -4761,7 +4761,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Faerie Fire": {
         "concentration": "yes",
         "page": "phb 239",
         "range": "60 feet",
@@ -4774,7 +4774,7 @@
         "school": "Evocation",
         "class": {"Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Bigby's Hand": {
         "concentration": "yes",
         "page": "phb 218",
         "range": "120 feet",
@@ -4788,7 +4788,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Arcane Eye": {
         "concentration": "yes",
         "page": "phb 214",
         "range": "30 feet",
@@ -4801,7 +4801,7 @@
         "school": "Divination",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Evard's Black Tentacles": {
         "concentration": "yes",
         "page": "phb 238",
         "range": "90 feet",
@@ -4815,7 +4815,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Thunderous Smite": {
         "concentration": "yes",
         "page": "phb 282",
         "range": "Self",
@@ -4828,7 +4828,7 @@
         "school": "Evocation",
         "class": {"Paladin": "yes"}
     },
-    {
+    "Healing Word": {
         "concentration": "no",
         "page": "phb 250",
         "range": "60 feet",
@@ -4841,7 +4841,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Pass without Trace": {
         "concentration": "yes",
         "page": "phb 264",
         "range": "Self",
@@ -4854,7 +4854,7 @@
         "school": "Abjuration",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Bestow Curse": {
         "concentration": "yes",
         "page": "phb 218",
         "range": "Touch",
@@ -4867,7 +4867,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Burning Hands": {
         "concentration": "no",
         "page": "phb 220",
         "range": "Self",
@@ -4880,7 +4880,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Alarm": {
         "concentration": "no",
         "page": "phb 211",
         "range": "30 feet",
@@ -4893,7 +4893,7 @@
         "school": "Abjuration",
         "class": {"Ranger": "yes", "Wizard": "yes"}
     },
-    {
+    "Sending": {
         "concentration": "no",
         "page": "phb 274",
         "range": "Unlimited",
@@ -4906,7 +4906,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Hallucinatory Terrain": {
         "concentration": "no",
         "page": "phb 249",
         "range": "300 feet",
@@ -4919,7 +4919,7 @@
         "school": "Illusion",
         "class": {"Warlock": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Wall of Fire": {
         "concentration": "yes",
         "page": "phb 285",
         "range": "120 feet",
@@ -4932,7 +4932,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Mass Healing Word": {
         "concentration": "no",
         "page": "phb 258",
         "range": "60 feet",
@@ -4945,7 +4945,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Thaumaturgy": {
         "concentration": "no",
         "page": "phb 282",
         "range": "30 feet",
@@ -4958,7 +4958,7 @@
         "school": "Transmutation",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Beast Sense": {
         "concentration": "yes",
         "page": "phb 217",
         "range": "Touch",
@@ -4971,7 +4971,7 @@
         "school": "Divination",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Conjure Elemental": {
         "concentration": "yes",
         "page": "phb 225",
         "range": "90 feet",
@@ -4984,7 +4984,7 @@
         "school": "Conjuration",
         "class": {"Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Magic Weapon": {
         "concentration": "yes",
         "page": "phb 257",
         "range": "Touch",
@@ -4997,7 +4997,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes", "Paladin": "yes"}
     },
-    {
+    "Longstrider": {
         "concentration": "no",
         "page": "phb 256",
         "range": "Touch",
@@ -5010,7 +5010,7 @@
         "school": "Transmutation",
         "class": {"Ranger": "yes", "Wizard": "yes", "Druid": "yes", "Bard": "yes"}
     },
-    {
+    "Rope Trick": {
         "concentration": "no",
         "page": "phb 272",
         "range": "Touch",
@@ -5023,7 +5023,7 @@
         "school": "Transmutation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Planar Ally": {
         "concentration": "no",
         "page": "phb 265",
         "range": "60 feet",
@@ -5036,7 +5036,7 @@
         "school": "Conjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Magic Circle": {
         "concentration": "no",
         "page": "phb 256",
         "range": "10 feet",
@@ -5049,7 +5049,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes", "Warlock": "yes", "Wizard": "yes", "Paladin": "yes"}
     },
-    {
+    "Warding Bond": {
         "concentration": "no",
         "page": "phb 287",
         "range": "Touch",
@@ -5062,7 +5062,7 @@
         "school": "Abjuration",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Scorching Ray": {
         "concentration": "no",
         "page": "phb 273",
         "range": "120 feet",
@@ -5075,7 +5075,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Tsunami": {
         "concentration": "yes",
         "page": "phb 284",
         "range": "Sight",
@@ -5088,7 +5088,7 @@
         "school": "Conjuration",
         "class": {"Druid": "yes"}
     },
-    {
+    "Melf's Acid Arrow": {
         "concentration": "no",
         "page": "phb 259",
         "range": "90 feet",
@@ -5102,7 +5102,7 @@
         "school": "Evocation",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Acid Splash": {
         "concentration": "no",
         "page": "phb 211",
         "range": "60 feet",
@@ -5115,7 +5115,7 @@
         "school": "Conjuration",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Inflict Wounds": {
         "concentration": "no",
         "page": "phb 253",
         "range": "Touch",
@@ -5128,7 +5128,7 @@
         "school": "Necromancy",
         "class": {"Cleric": "yes"}
     },
-    {
+    "Phantasmal Force": {
         "concentration": "yes",
         "page": "phb 264",
         "range": "60 feet",
@@ -5141,7 +5141,7 @@
         "school": "Illusion",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Light": {
         "concentration": "no",
         "page": "phb 255",
         "range": "Touch",
@@ -5154,7 +5154,7 @@
         "school": "Evocation",
         "class": {"Cleric": "yes", "Sorcerer": "yes", "Wizard": "yes", "Bard": "yes"}
     },
-    {
+    "Conjure Animals": {
         "concentration": "yes",
         "page": "phb 225",
         "range": "60 feet",
@@ -5167,7 +5167,7 @@
         "school": "Conjuration",
         "class": {"Ranger": "yes", "Druid": "yes"}
     },
-    {
+    "Giant Insect": {
         "concentration": "yes",
         "page": "phb 245",
         "range": "30 feet",
@@ -5180,7 +5180,7 @@
         "school": "Transmutation",
         "class": {"Druid": "yes"}
     },
-    {
+    "Witch Bolt": {
         "concentration": "yes",
         "page": "phb 289",
         "range": "30 feet",
@@ -5193,7 +5193,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Imprisonment": {
         "concentration": "no",
         "page": "phb 252",
         "range": "30 feet",
@@ -5206,7 +5206,7 @@
         "school": "Abjuration",
         "class": {"Warlock": "yes", "Wizard": "yes"}
     },
-    {
+    "Control Flames": {
         "concentration": "no",
         "page": "ee 16",
         "range": "60 feet",
@@ -5219,7 +5219,7 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Melf's Minute Meteors": {
         "concentration": "yes",
         "page": "ee 20",
         "range": "Self",
@@ -5232,7 +5232,7 @@
         "school": "Evocation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     },
-    {
+    "Hellish Rebuke": {
         "concentration": "no",
         "page": "phb 250",
         "range": "60 feet",
@@ -5245,7 +5245,7 @@
         "school": "Evocation",
         "class": {"Warlock": "yes"}
     },
-    {
+    "Stoneskin": {
         "concentration": "yes",
         "page": "phb 278",
         "range": "Touch",
@@ -5258,7 +5258,7 @@
         "school": "Abjuration",
         "class": {"Sorcerer": "yes", "Ranger": "yes", "Wizard": "yes", "Druid": "yes"}
     },
-    {
+    "Arcane Lock": {
         "concentration": "no",
         "page": "phb 215",
         "range": "Touch",
@@ -5271,7 +5271,7 @@
         "school": "Abjuration",
         "class": {"Wizard": "yes"}
     },
-    {
+    "Levitate": {
         "concentration": "yes",
         "page": "phb 255",
         "range": "60 feet",
@@ -5284,4 +5284,4 @@
         "school": "Transmutation",
         "class": {"Sorcerer": "yes", "Wizard": "yes"}
     }
-]
+};

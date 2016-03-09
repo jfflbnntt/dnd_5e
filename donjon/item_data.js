@@ -2362,4 +2362,4 @@ var item_data = {
         "name": "Scarab of Protection",
         "type": "Wondrous Item"
     }
-}
+};
