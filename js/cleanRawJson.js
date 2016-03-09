@@ -1,9 +1,9 @@
 #!/usr/local/bin/jsc
 
 // load raw data 'item_data'
-load("../donjon/item_data.js")
+load("../donjon/monster_data.js")
 
-var data = item_data
+var data = monster_data
 
 var records = []
 
