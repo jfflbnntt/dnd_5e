@@ -1,0 +1,332 @@
+limits,page,attunement,rarity,name,type
+shield,dmg 200,yes,Rare,Shield of Missile Attraction,Armor
+,dmg 211,no,Uncommon,Wand of Secrets,Wand
+,dmg 187,no,Uncommon,Potion of Hill Giant Strength,Potion
+javelin,dmg 178,no,Uncommon,Javelin of Lightning,Weapon
+any ammuntion,dmg 150,no,Rare,"Ammuntion, +2",Weapon
+"warhammer, dwarf",dmg 167,yes,Very Rare,Dwarven Thrower,Weapon
+evil alignment,dmg 207,yes,Legendary,Talisman of Ultimate Evil,Wondrous Item
+,dmg 187,no,Very Rare,Potion of Cloud Giant Strength,Potion
+chain mail,dmg 167,yes,Legendary,Efreeti Chain,Armor
+,dmg 153,no,Uncommon,Bag of Holding,Wondrous Item
+any axe or sword,dmg 172,no,Rare,Giant Slayer,Weapon
+,dmg 180,no,Very Rare,Manual of Golems,Wondrous Item
+,dmg 188,no,Very Rare,Potion of Speed,Potion
+,dmg 174,yes,Rare,Helm of Teleportation,Wondrous Item
+,dmg 209,no,Legendary,Universal Solvent,Wondrous Item
+,dmg 176,yes,Rare,"Ioun Stone, Reserve",Wondrous Item
+,dmg 182,no,Rare,Necklace of Fireballs,Wondrous Item
+"druid, sorcerer, warlock, or wizard",dmg 202,yes,Very Rare,Staff of Frost,Staff
+spellcaster,dmg 211,yes,Rare,Wand of Paralysis,Wand
+,dmg 155,yes,Very Rare,Belt of Frost Giant Strength,Wondrous Item
+,dmg 193,yes,Very Rare,Ring of Telekinesis,Ring
+,dmg 158,yes,Legendary,Cloak of Invisibility,Wondrous Item
+,dmg 191,yes,Legendary,Ring of Invisibility,Ring
+,dmg 193,yes,Rare,Robe of Eyes,Wondrous Item
+,dmg 158,no,Rare,Censer of Controlling Air Elementals,Wondrous Item
+,dmg 200,no,Uncommon,"Spell Scroll, 3rd Level",Scroll
+,dmg 200,no,Very Rare,"Spell Scroll, 8th Level",Scroll
+,dmg 187,no,Uncommon,Potion of Animal Friendship,Potion
+,dmg 196,yes,Very Rare,Rod of Alertness,Rod
+,dmg 156,yes,Rare,Bracers of Defense,Wondrous Item
+"cleric, druid, or warlock",dmg 204,yes,Uncommon,Staff of the Python,Staff
+bard,dmg 176,yes,Legendary,"Instrument of the Bards, Ollamh Harp",Wondrous Item
+"sorcerer, warlock, or wizard",dmg 203,yes,Legendary,Staff of the Magi,Staff
+,dmg 191,yes,Rare,Ring of Free Action,Ring
+warlock,dmg 197,yes,Very Rare,"Rod of the Pact Keeper, +3",Rod
+,dmg 192,yes,Rare,Ring of Resistance,Ring
+,dmg 200,no,Uncommon,"Spell Scroll, 2nd Level",Scroll
+,dmg 213,yes,Uncommon,Weapon of Warning,Weapon
+,dmg 187,no,Common,Potion of Climbing,Potion
+,dmg 158,no,Uncommon,Circlet of Blasting,Wondrous Item
+any sword,dmg 206,yes,Rare,Sword of Life Stealing,Weapon
+,dmg 183,no,Rare,Oil of Etherealness,Potion
+,dmg 155,yes,Legendary,Belt of Storm Giant Strength,Wondrous Item
+,dmg 187,no,Common,Potion of Healing,Potion
+,dmg 150,yes,Very Rare,Amulet of the Planes,Wondrous Item
+,dmg 199,no,Uncommon,Sending Stones,Wondrous Item
+,dmg 155,yes,Rare,Boots of Levitation,Wondrous Item
+,dmg 150,yes,Uncommon,Amulet of Proof Against Detection and Location,Wondrous Item
+,dmg 176,yes,Rare,"Ioun Stone, Awareness",Wondrous Item
+any ammunition,dmg 150,no,Uncommon,"Ammunition, +1",Weapon
+,dmg 185,yes,Uncommon,Pipes of the Sewers,Wondrous Item
+any sword,dmg 170,yes,Rare,Flame Tongue,Weapon
+,dmg 193,yes,Uncommon,Ring of Warmth,Ring
+,dmg 156,yes,Uncommon,Boots of Striding and Springing,Wondrous Item
+any axe,dmg 155,yes,Rare,Berserker Axe,Weapon
+chain shirt,dmg 168,no,Rare,Elven Chain,Armor
+,dmg 203,yes,Very Rare,Staff of Striking,Staff
+,dmg 173,yes,Uncommon,Hat of Disguise,Wondrous Item
+,dmg 173,no,Uncommon,Helm of Comprehending Languages,Wondrous Item
+,dmg 159,no,Uncommon,Cloak of the Manta Ray,Wondrous Item
+plate,dmg 165,yes,Very Rare,Demon Armor,Armor
+,dmg 187,no,Rare,Potion of Fire Giant Strength,Potion
+,dmg 201,no,Legendary,Sphere of Annihilation,Wondrous Item
+,dmg 156,yes,Uncommon,Brooch of Shielding,Wondrous Item
+,dmg 197,no,Rare,Rope of Entanglement,Wondrous Item
+,dmg 179,no,Uncommon,Lantern of Revealing,Wondrous Item
+,dmg 168,no,Rare,Elixir of Health,Potion
+bard,dmg 176,yes,Rare,"Instrument of the Bards, Cli Lyre",Wondrous Item
+,dmg 167,no,Very Rare,Efreeti Bottle,Wondrous Item
+,dmg 193,no,Legendary,Ring of Three Wishes,Ring
+,dmg 184,no,Uncommon,Philter of Love,Potion
+,dmg 179,no,Uncommon,Keoghtom's Ointment,Wondrous Item
+,dmg 195,yes,Very Rare,Rod of Absorption,Rod
+,dmg 187,no,Uncommon,Potion of Growth,Potion
+any sword,dmg 183,yes,Very Rare,Nine Lives Stealer,Weapon
+,dmg 169,no,Rare,"Figurine of Wondrous Power, Golden Lions",Wondrous Item
+,dmg 209,no,Very Rare,Tome of Understanding,Wondrous Item
+,dmg 214,yes,Uncommon,Winged Boots,Wondrous Item
+any sword that deals slashing damage,dmg 209,yes,Legendary,Vorpal Sword,Weapon
+,dmg 152,no,Rare,Bag of Beans,Wondrous Item
+,dmg 185,no,Uncommon,Pipes of Haunting,Wondrous Item
+,dmg 168,no,Uncommon,Eyes of Minute Seeing,Wondrous Item
+,dmg 178,no,Legendary,Iron Flask,Wondrous Item
+,dmg 184,yes,Uncommon,Periapt of Wound Closure,Wondrous Item
+longbow,dmg 183,yes,Very Rare,Oathbow,Weapon
+,dmg 189,no,Uncommon,Quiver of Ehlonna,Wondrous Item
+,dmg 204,yes,Very Rare,Staff of Thunder and Lightning,Staff
+arrow,dmg 152,no,Very Rare,Arrow of Slaying,Weapon
+,dmg 213,no,Very Rare,"Weapon, +3",Weapon
+,dmg 158,yes,Uncommon,Cloak of Elvenkind,Wondrous Item
+,dmg 170,no,Rare,Folding Boat,Wondrous Item
+,dmg 176,yes,Very Rare,"Ioun Stone, Insight",Wondrous Item
+shield,dmg 152,yes,Rare,Arrow-catching Shield,Armor
+,dmg 175,no,Rare,Horseshoes of Speed,Wondrous Item
+wizard,dmg 208,yes,Legendary,Tome of the Stilled Tongue,Wondrous Item
+,dmg 152,no,Legendary,"Armor, +3",Armor
+,dmg 191,yes,Very Rare,Ring of Regeneration,Ring
+any sword,dmg 166,no,Rare,Dragon Slayer,Weapon
+plate,dmg 185,yes,Legendary,Plate Armor of Etherealness,Armor
+,dmg 189,no,Rare,Ring of Animal Influence,Ring
+,dmg 213,no,Rare,"Weapon, +2",Weapon
+,dmg 171,no,Uncommon,Gem of Brightness,Wondrous Item
+,dmg 182,yes,Uncommon,Necklace of Adaptation,Wondrous Item
+bard,dmg 176,yes,Very Rare,"Instrument of the Bards, Anstruth Harp",Wondrous Item
+,dmg 188,no,Rare,Potion of Invulnerability,Potion
+,dmg 165,no,Rare,Dimensional Shackles,Wondrous Item
+,dmg 180,no,Very Rare,Manual of Bodily Health,Wondrous Item
+,dmg 208,no,Very Rare,Tome of Leadership and Influence,Wondrous Item
+bard,dmg 176,yes,Uncommon,"Instrument of the Bards, Fochlucan Bandore",Wondrous Item
+,dmg 172,yes,Uncommon,Gloves of Swimming and Climbing,Wondrous Item
+scale mail,dmg 165,yes,Very Rare,Dragon Scale Mail,Armor
+,dmg 176,yes,Very Rare,"Ioun Stone, Fortitude",Wondrous Item
+"bard, cleric, druid, sorcerer, warlock, or wizard",dmg 201,yes,Rare,Staff of Charming,Staff
+"sorcerer, warlock, or wizard",dmg 202,yes,Very Rare,Staff of Power,Staff
+,dmg 159,yes,Rare,Cloak of the Bat,Wondrous Item
+longsword,dmg 205,yes,Rare,Sun Blade,Weapon
+"cleric, druid, or warlock",dmg 203,yes,Uncommon,Staff of the Adder,Staff
+"bard, cleric, druid, sorcerer, warlock, or wizard",dmg 203,yes,Rare,Staff of Swarming Insects,Staff
+,dmg 191,yes,Rare,Ring of Evasion,Ring
+good alignment,dmg 207,yes,Legendary,Talisman of Pure Good,Wondrous Item
+,dmg 172,yes,Rare,Gem of Seeing,Wondrous Item
+plate,dmg 167,no,Very Rare,Dwarven Plate,Armor
+,dmg 161,no,Uncommon,Decanter of Endless Water,Wondrous Item
+,dmg 184,no,Very Rare,Oil of Sharpness,Potion
+,dmg 176,yes,Very Rare,"Ioun Stone, Leadership",Wondrous Item
+shield,dmg 200,no,Very Rare,"Shield, +3",Armor
+,dmg 193,yes,Rare,Ring of the Ram,Ring
+"medium or heavy, but not hide",dmg 150,no,Uncommon,Adamantine Armor,Armor
+,dmg 213,no,Legendary,Well of Many Worlds,Wondrous Item
+shield,dmg 199,no,Uncommon,Sentinel Shield,Armor
+warlock,dmg 197,yes,Rare,"Rod of the Pact Keeper, +2",Rod
+,dmg 187,no,Very Rare,Potion of Supreme Healing,Potion
+,dmg 162,no,Legendary,Deck of Many Things,Wondrous Item
+,dmg 191,yes,Rare,Ring of Feather Falling,Ring
+,dmg 190,yes,Legendary,Ring of Djinni Summoning,Ring
+,dmg 188,no,Uncommon,Potion of Resistance,Potion
+,dmg 181,no,Uncommon,Mariner's Armor,Armor
+,dmg 169,no,Rare,"Figurine of Wondrous Power, Ebony Fly",Wondrous Item
+,dmg 155,yes,Very Rare,Belt of Stone Giant Strength,Wondrous Item
+,dmg 176,yes,Very Rare,"Ioun Stone, Intellect",Wondrous Item
+,dmg 154,no,Uncommon,Bag of Tricks,Wondrous Item
+,dmg 150,no,Uncommon,Alchemy Jug,Wondrous Item
+,dmg 153,no,Very Rare,Bag of Devouring,Wondrous Item
+,dmg 190,yes,Legendary,Ring of Elemental Command,Ring
+,dmg 174,yes,Uncommon,Helm of Telepathy,Wondrous Item
+,dmg 207,yes,Legendary,Talisman of the Sphere,Wondrous Item
+,dmg 170,no,Rare,"Figurine of Wondrous Power, Serpentine Owl",Wondrous Item
+bard,dmg 176,yes,Uncommon,"Instrument of the Bards, Mac-Fuirmidh Cittern",Wondrous Item
+,dmg 172,no,Uncommon,Goggles of Night,Wondrous Item
+maul,dmg 173,no,Legendary,Hammer of Thunderbolts,Weapon
+"medium or heavy, but not hide",dmg 182,no,Uncommon,Mithral Armor,Armor
+"cleric, druid, or paladin",dmg 182,yes,Rare,Necklace of Prayer Beads,Wondrous Item
+,dmg 187,no,Rare,Potion of Gaseous Form,Potion
+,dmg 176,yes,Legendary,"Ioun Stone, Greater Absorption",Wondrous Item
+,dmg 170,no,Rare,"Figurine of Wondrous Power, Marble Elephant",Wondrous Item
+,dmg 172,no,Uncommon,Gloves of Thievery,Wondrous Item
+,dmg 173,yes,Very Rare,Helm of Brilliance,Wondrous Item
+shield,dmg 201,yes,Very Rare,Spellguard Shield,Armor
+,dmg 155,yes,Rare,Boots of Speed,Wondrous Item
+,dmg 200,no,Very Rare,"Spell Scroll, 6th Level",Scroll
+any sword,dmg 164,yes,Legendary,Defender,Weapon
+,dmg 192,yes,Rare,Ring of Spell Storing,Ring
+,dmg 156,yes,Uncommon,Bracers of Archery,Wondrous Item
+,dmg 152,yes,Rare,Armor of Resistance,Armor
+,dmg 188,no,Very Rare,Potion of Longevity,Potion
+,dmg 155,no,Uncommon,Boots of Elvenkind,Wondrous Item
+,dmg 158,yes,Rare,Cloak of Displacement,Wondrous Item
+,dmg 175,no,Legendary,"Horn of Valhalla, Iron",Wondrous Item
+,dmg 152,no,Very Rare,"Armor, +2",Armor
+,dmg 181,no,Very Rare,Mirror of Life Trapping,Wondrous Item
+,dmg 200,no,Common,"Spell Scroll, Cantrip",Scroll
+mace,dmg 179,no,Rare,Mace of Smiting,Weapon
+,dmg 175,no,Uncommon,Immovable Rod,Rod
+shield,dmg 151,yes,Very Rare,Animated Shield,Armor
+,dmg 171,yes,Uncommon,Gauntlets of Ogre Power,Wondrous Item
+any sword,dmg 161,yes,Very Rare,Dancing Sword,Weapon
+shield,dmg 200,no,Rare,"Shield, +2",Armor
+,dmg 160,no,Rare,Daern's Instant Fortress,Wondrous Item
+,dmg 211,no,Uncommon,Wand of Magic Missiles,Wand
+dagger,dmg 161,no,Rare,Dagger of Venom,Weapon
+,dmg 159,yes,Uncommon,Cloak of Protection,Wondrous Item
+,dmg 188,no,Rare,Potion of Heroism,Potion
+,dmg 205,no,Rare,Stone of Controlling Earth Elementals,Wondrous Item
+,dmg 168,yes,Uncommon,Eyes of Charming,Wondrous Item
+,dmg 199,no,Rare,Scroll of Protection,Scroll
+,dmg 187,no,Rare,Potion of Stone Giant Strength,Potion
+,dmg 187,no,Legendary,Potion of Storm Giant Strength,Potion
+,dmg 159,yes,Legendary,Crystal Ball of Mind Reading,Wondrous Item
+,dmg 211,no,Uncommon,Wand of Magic Detection,Wand
+,dmg 187,no,Rare,Potion of Clairvoyance,Potion
+,dmg 213,no,Uncommon,Wind Fan,Wondrous Item
+,dmg 157,yes,Very Rare,Candle of Invocation,Wondrous Item
+spellcaster,dmg 212,yes,Uncommon,"Wand of the War Mage, +1",Wand
+,dmg 166,no,Uncommon,Dust of Dryness,Wondrous Item
+"bard, cleric, or druid",dmg 202,yes,Rare,Staff of Healing,Staff
+,dmg 159,yes,Rare,Cube of Force,Wondrous Item
+,dmg 154,no,Rare,Bead of Force,Wondrous Item
+,dmg 188,no,Rare,Quaal's Feather Token,Wondrous Item
+,dmg 156,no,Uncommon,Broom of Flying,Wondrous Item
+,dmg 180,no,Very Rare,Manual of Gainful Exercise,Wondrous Item
+,dmg 176,yes,Rare,"Ioun Stone, Protection",Wondrous Item
+,dmg 156,no,Rare,Bowl of Commanding Water Elementals,Wondrous Item
+,dmg 166,no,Uncommon,Driftglobe,Wondrous Item
+,dmg 213,no,Uncommon,"Weapon, +1",Weapon
+spellcaster,dmg 210,yes,Rare,Wand of Fireballs,Wand
+"sorcerer, warlock, or wizard",dmg 194,yes,Legendary,Robe of the Archmagi,Wondrous Item
+,dmg 173,yes,Uncommon,Headband of Intellect,Wondrous Item
+,dmg 175,no,Rare,"Horn of Valhalla, Brass",Wondrous Item
+,dmg 192,yes,Very Rare,Ring of Shooting Stars,Ring
+,dmg 210,yes,Rare,Wand of Enemy Detection,Wand
+bard,dmg 176,yes,Rare,"Instrument of the Bards, Canaith Mandolin",Wondrous Item
+,dmg 175,no,Very Rare,Horseshoes of a Zephyr,Wondrous Item
+,dmg 181,no,Very Rare,Manual of Quickness of Action,Wondrous Item
+,dmg 188,no,Very Rare,Potion of Invisibility,Potion
+,dmg 176,yes,Very Rare,"Ioun Stone, Agility",Wondrous Item
+,dmg 187,no,Very Rare,Potion of Flying,Potion
+,dmg 210,yes,Rare,Wand of Fear,Wand
+,dmg 168,no,Uncommon,Eversmoking Bottle,Wondrous Item
+,dmg 175,no,Rare,"Horn of Valhalla, Silver",Wondrous Item
+,dmg 156,yes,Uncommon,Boots of the Winterlands,Wondrous Item
+spellcaster,dmg 212,yes,Rare,Wand of Wonder,Wand
+,dmg 168,yes,Uncommon,Eyes of the Eagle,Wondrous Item
+any sword,dmg 171,yes,Very Rare,Frost Brand,Weapon
+,dmg 180,yes,Rare,Mantle of Spell Resistance,Wondrous Item
+spellcaster,dmg 184,yes,Uncommon,Pearl of Power,Wondrous Item
+,dmg 155,yes,Rare,Belt of Hill Giant Strength,Wondrous Item
+any ammuntion,dmg 150,no,Very Rare,"Ammuntion, +3",Weapon
+,dmg 196,yes,Legendary,Rod of Lordly Might,Rod
+,dmg 200,no,Rare,"Spell Scroll, 5th Level",Scroll
+,dmg 157,no,Uncommon,Cap of Water Breathing,Wondrous Item
+"any sword, paladin",dmg 174,yes,Legendary,Holy Avenger,Weapon
+spellcaster,dmg 211,yes,Very Rare,Wand of Polymorph,Wand
+,dmg 188,no,Uncommon,Potion of Water Breathing,Potion
+,dmg 176,yes,Legendary,"Ioun Stone, Mastery",Wondrous Item
+,dmg 193,yes,Rare,Ring of X-ray Vision,Ring
+,dmg 194,yes,Very Rare,Robe of Scintillating Colors,Wondrous Item
+,dmg 177,no,Rare,Iron Bands of Bilarro,Wondrous Item
+,dmg 157,no,Very Rare,Carpet of Flying,Wondrous Item
+,dmg 194,yes,Very Rare,Robe of Stars,Wondrous Item
+warlock,dmg 197,yes,Uncommon,"Rod of the Pact Keeper, +1",Rod
+,dmg 188,no,Rare,Potion of Mind Reading,Potion
+"longsword, by alignment",dmg 206,yes,Legendary,Sword of Answering,Weapon
+,dmg 191,yes,Rare,Ring of Protection,Ring
+,dmg 197,no,Uncommon,Rope of Climbing,Wondrous Item
+,dmg 175,no,Very Rare,"Horn of Valhalla, Bronze",Wondrous Item
+,dmg 191,yes,Uncommon,Ring of Mind Shielding,Ring
+,dmg 183,no,Very Rare,Nolzur's Marvelous Pigments,Wondrous Item
+scimitar,dmg 199,yes,Very Rare,Scimitar of Speed,Weapon
+any sword,dmg 206,yes,Uncommon,Sword of Vengeance,Weapon
+,dmg 157,no,Rare,Cape of the Mountebank,Wondrous Item
+,dmg 184,no,Uncommon,Oil of Slipperiness,Potion
+plate,dmg 152,yes,Rare,Armor of Vulnerability,Armor
+mace,dmg 179,yes,Rare,Mace of Disruption,Weapon
+spellcaster,dmg 209,yes,Rare,Wand of Binding,Wand
+,dmg 158,no,Rare,Chime of Opening,Wondrous Item
+,dmg 174,no,Rare,Horn of Blasting,Wondrous Item
+,dmg 199,no,Uncommon,Saddle of the Cavalier,Wondrous Item
+,dmg 159,yes,Legendary,Crystal Ball of Telepathy,Wondrous Item
+,dmg 166,no,Uncommon,Dust of Disappearance,Wondrous Item
+,dmg 197,no,Very Rare,Rod of Security,Rod
+any sword that deals slashing damage,dmg 206,yes,Very Rare,Sword of Sharpness,Weapon
+"cleric, druid, or warlock",dmg 205,yes,Rare,Staff of Withering,Staff
+,dmg 200,yes,Uncommon,Slippers of Spider Climbing,Wondrous Item
+,dmg 150,yes,Rare,Amulet of Health,Wondrous Item
+,dmg 208,yes,Rare,Tentacle Rod,Rod
+,dmg 200,no,Common,"Spell Scroll, 1st Level",Scroll
+,dmg 181,yes,Uncommon,Medallion of Thoughts,Wondrous Item
+,dmg 200,no,Rare,"Spell Scroll, 4th Level",Scroll
+,dmg 191,yes,Uncommon,Ring of Jumping,Ring
+,dmg 200,no,Legendary,"Spell Scroll, 9th Level",Scroll
+,dmg 195,no,Uncommon,Robe of Useful Items,Wondrous Item
+,dmg 176,yes,Very Rare,"Ioun Stone, Absorption",Wondrous Item
+,dmg 187,no,Uncommon,Potion of Greater Healing,Potion
+shield,dmg 200,no,Uncommon,"Shield, +1",Armor
+,dmg 166,no,Uncommon,Dust of Sneezing and Choking,Wondrous Item
+,dmg 170,no,Rare,"Figurine of Wondrous Power, Onyx Dog",Wondrous Item
+,dmg 156,no,Rare,Brazier of Commanding Fire Elementals,Wondrous Item
+,dmg 176,yes,Legendary,"Ioun Stone, Regeneration",Wondrous Item
+,dmg 172,yes,Uncommon,Gloves of Missile Snaring,Wondrous Item
+spellcaster,dmg 212,yes,Very Rare,"Wand of the War Mage, +3",Wand
+,dmg 169,no,Rare,"Figurine of Wondrous Power, Bronze Griffon",Wondrous Item
+,dmg 167,no,Uncommon,Elemental Gem,Wondrous Item
+"cleric, druid, or paladin",dmg 197,yes,Legendary,Rod of Resurrection,Rod
+,dmg 155,yes,Legendary,Belt of Cloud Giant Strength,Wondrous Item
+spellcaster,dmg 212,yes,Uncommon,Wand of Web,Wand
+,dmg 159,yes,Very Rare,Crystal Ball,Wondrous Item
+,dmg 188,no,Uncommon,Potion of Poison,Potion
+,dmg 151,no,Legendary,Apparatus of Kwalish,Wondrous Item
+,dmg 159,yes,Legendary,Crystal Ball of True Seeing,Wondrous Item
+,dmg 155,yes,Very Rare,Belt of Fire Giant Strength,Wondrous Item
+,dmg 187,no,Rare,Potion of Diminution,Potion
+,dmg 184,no,Uncommon,Periapt of Health,Wondrous Item
+druid,dmg 204,yes,Rare,Staff of the Woodlands,Staff
+,dmg 187,no,Uncommon,Potion of Fire Breath,Potion
+,dmg 193,no,Uncommon,Ring of Water Walking,Ring
+spellcaster,dmg 212,yes,Rare,"Wand of the War Mage, +2",Wand
+,dmg 176,yes,Very Rare,"Ioun Stone, Strength",Wondrous Item
+,dmg 161,no,Uncommon,Deck of Illusions,Wondrous Item
+any sword,dmg 179,yes,Legendary,Luck Blade,Weapon
+,dmg 193,yes,Legendary,Ring of Spell Turning,Ring
+,dmg 184,no,Rare,Periapt of Proof Against Poison,Wondrous Item
+spellcaster,dmg 211,yes,Rare,Wand of Lightning Bolts,Wand
+studded leather,dmg 172,no,Rare,Glamoured Studded Leather,Armor
+,dmg 176,yes,Rare,"Ioun Stone, Sustenance",Wondrous Item
+,dmg 197,yes,Rare,Rod of Rulership,Rod
+,dmg 155,yes,Rare,Belt of Dwarvenkind,Wondrous Item
+bard,dmg 176,yes,Uncommon,"Instrument of the Bards, Doss Lute",Wondrous Item
+,dmg 185,no,Rare,Portable Hole,Wondrous Item
+mace,dmg 180,yes,Rare,Mace of Terror,Weapon
+trident,dmg 209,yes,Uncommon,Trident of Fish Command,Weapon
+,dmg 152,no,Rare,"Armor, +1",Armor
+,dmg 158,yes,Very Rare,Cloak of Arachnida,Wondrous Item
+plate,dmg 152,yes,Legendary,Armor of Invulnerability,Armor
+,dmg 187,no,Rare,Potion of Frost Giant Strength,Potion
+,dmg 208,no,Very Rare,Tome of Clear Thought,Wondrous Item
+,dmg 209,no,Rare,Vicious Weapon,Weapon
+,dmg 200,no,Very Rare,"Spell Scroll, 7th Level",Scroll
+,dmg 169,no,Rare,"Figurine of Wondrous Power, Ivory Goats",Wondrous Item
+,dmg 160,no,Legendary,Cubic Gate,Wondrous Item
+"druid, sorcerer, warlock, or wizard",dmg 201,yes,Very Rare,Staff of Fire,Staff
+,dmg 193,no,Uncommon,Ring of Swimming,Ring
+,dmg 200,no,Legendary,Sovereign Glue,Wondrous Item
+,dmg 170,no,Very Rare,"Figurine of Wondrous Power, Obsidian Steed",Wondrous Item
+,dmg 188,no,Very Rare,Potion of Vitality,Potion
+any sword,dmg 207,yes,Rare,Sword of Wounding,Weapon
+,dmg 214,yes,Rare,Wings of Flying,Wondrous Item
+,dmg 187,no,Rare,Potion of Superior Healing,Potion
+,dmg 170,no,Uncommon,"Figurine of Wondrous Power, Silver Raven",Wondrous Item
+,dmg 174,no,Rare,Heward's Handy Haversack,Wondrous Item
+,dmg 205,yes,Uncommon,Stone of Good Luck,Wondrous Item
+,dmg 199,yes,Legendary,Scarab of Protection,Wondrous Item
