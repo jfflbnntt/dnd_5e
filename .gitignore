@@ -1,0 +1,5 @@
+# Mac OS finder files
+.DS_Store
+
+# Intellij IDEA files
+.idea
